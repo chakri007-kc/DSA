@@ -11,14 +11,6 @@ class Tree{
         int ma;
         Tree* parent;
         vector<Tree*>links;
-        // Tree(){
-        //     isLocked=false;
-        //     anc_locked=0;
-        //     dec_locked=0;
-        //     uid=-1;
-        //     ma=w++;
-        //     parent=NULL;
-        // }
         Tree(Tree* p){
             isLocked=false;
             anc_locked=0;
